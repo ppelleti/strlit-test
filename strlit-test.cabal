@@ -48,7 +48,9 @@ cabal-version:       >=1.10
 
 library
   -- Modules exported by the library.
-  -- exposed-modules:
+  exposed-modules:     Experiment.Fast
+                     , Experiment.Medium
+                     , Experiment.Slow
 
   -- Modules included in this library but not exported.
   -- other-modules:
@@ -57,7 +59,8 @@ library
   -- other-extensions:
 
   -- Other library packages from which modules are imported.
-  build-depends:       base >=4.12 && <4.13
+  build-depends:       base       >= 4.12      && < 5
+                     , bytestring >= 0.10.8.2  && < 0.12
 
   -- Directories containing source files.
   hs-source-dirs:      src

@@ -52,6 +52,7 @@ library
   exposed-modules:     Experiment.Fast
                      , Experiment.Medium
                      , Experiment.Slow
+                     , Experiment.String
 
   -- Modules included in this library but not exported.
   -- other-modules:
